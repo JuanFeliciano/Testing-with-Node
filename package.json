@@ -5,13 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "lint": "eslint ./src/entities --ext .ts --fix"
+    "lint": "eslint ./ --ext .ts --fix",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
-    "eslint": "^8.56.0"
+    "eslint": "^8.56.0",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {
+    "date-fns": "^3.0.5"
   }
 }
